@@ -6,6 +6,7 @@
     <title>Tela de Login</title>
     <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
 
+    <!-- CSS -->
     <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
@@ -21,12 +22,12 @@
                     <input type="text" name="nome" placeholder="Informe o nome">
         
                     <label for="Senha">Senha</label>
-                    <input type="password" name="senha" placeholder="Informe a senha">
+                    <input type="password" name="senha" placeholder="Informe a senha" required>
         
-                    <a href="#">Esqueceu a senha?</a>
+                    <a href="forgot.html">Esqueceu a senha?</a>
         
                     <button type="submit" class="btn">Entrar</button>
-                    <button type="button" class="btn" onclick="showCadastro()">Criar Conta</button>
+                    <button type="button" class="btn" onclick="window.location.href='cadastro.html'">Criar Conta</button>
 
                 </div>
             </form>

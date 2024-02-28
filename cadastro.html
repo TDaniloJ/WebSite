@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="formcentro">
+        <div class="formCadastro">
+            <form method="post" id="login">
+
+                <h2>Tela de Cadastro</h2>
+
+                <div class="formInput">
+
+                    <label for="Login">Login</label>
+                    <input type="text" name="nome" placeholder="Digite o nome">
+        
+                    <label for="Senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Digite a senha">
+
+                    <label for="Senha Novamente">Regitar a Senha</label>
+                    <input type="password" name="senhaNovamente" placeholder="Digite a senha Novamente" required>
+
+                    <label for="Senha">Email</label>
+                    <input type="email" name="email" placeholder="Digite um E-mail Valido" required>
+        
+                    <button type="submit" class="btn">Criar Conta</button>
+                    <button type="button" class="btn" onclick="window.location.href='login.html'">Voltar</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
