@@ -1,0 +1,10 @@
+.nav-link:hover {
+    background-color: #1379fd;
+}
+
+.d-grid{
+    display: flex;
+    padding-top: 120%;
+    margin-bottom: auto !important;
+    flex-direction: column !important;
+}
